@@ -13,8 +13,8 @@ services:
     #   - mongo
     environment:
         MONGO_URL: mongodb://mongo:27017/mongodb
-        BOT_TOKEN: 1524380805:AAEVbtnt82_B2-w1_bmERK2G-4l86Z3hc10
-        GROUP_INVITE_LINK: https://t.me/+VEoHHOeZWxTDGc9A
+        BOT_TOKEN: tnt82_B2-w1_bmERK2Z3hc10
+        GROUP_INVITE_LINK: https://t.me/+VEA
     # networks:
     #   - node-webapp-network
 
