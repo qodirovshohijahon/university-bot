@@ -23,7 +23,7 @@ const { hears } = require("../bot/hears");
 const { listeners } = require("../bot/listeners");
 const bot = new Telegraf(config.botToken);
 
-bot.telegram.setWebhook(`${process.env.WEBSITE}/bot${config.botToken}`);
+// bot.telegram.setWebhook(`${process.env.WEBSITE}/bot${config.botToken}`);
 app.use(bot.webhookCallback(`/bot${config.botToken}`));
 
 commands(bot);
